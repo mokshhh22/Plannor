@@ -4,7 +4,7 @@ A smart android calendar app that makes planning your time and projects smooth a
 ---
 ### App
 <div>
-	<img src="./screenshots/main.jpg" />
-	<img src="./screenshots/list.jpg" />
-	<img src="./screenshots/form.jpg" />
+	<img src="./screenshots/main.jpg" width="280"/>
+	<img src="./screenshots/list.jpg" width="280"/>
+	<img src="./screenshots/form.jpg" width="280"/>
 </div>
