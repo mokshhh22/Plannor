@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_gravity="center"
+    android:baselineAligned="false"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/weekDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/week_holder"
+            android:textColor="@color/WHITE"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/monthDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/day_holder"
+            android:textColor="@color/WHITE"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/currentDayLL"
+        android:layout_weight="0.012"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@color/BLACK"/>
+
+    <LinearLayout
+        android:id="@+id/eventsLL"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.85"
+        android:background="@color/calendarListLight"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:id="@+id/holiday1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="35dp"
+                android:background="@drawable/events_color_red" />
+
+            <TextView
+                android:id="@+id/PHTV1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="12dp"
+                android:gravity="center_vertical"
+                android:text="Public holiday"
+                android:textColor="@color/WHITE" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/holiday2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="35dp"
+                android:background="@drawable/events_color_green" />
+
+            <TextView
+                android:id="@+id/PHTV2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="12dp"
+                android:gravity="center_vertical"
+                android:text="Public holiday"
+                android:textColor="@color/WHITE" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

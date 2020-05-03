@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#A5BAD1</color>
+
+    <color name="WHITE">#fff</color>
+    <color name="BLACK">#000000</color>
+    <color name="RED">#DF2331</color>
+
+    <!--Main view list colors-->
+    <color name="calendarListLight">#A5BAD1</color>
+    <color name="calendarListDark">#96A5C0</color>
+
+    <color name="cardColor">#BC344B63</color>
+    <color name="greyText">#a9a9a9</color>
+</resources>                      
